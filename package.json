@@ -1,0 +1,24 @@
+{
+  "name": "@voight-trace/cloudflare-worker",
+  "version": "1.0.0",
+  "description": "Official Cloudflare Worker Edge Collector for Voight Trace",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "secret": "wrangler secret put VOIGHT_TRACE_API_KEY"
+  },
+  "keywords": [
+    "voight-trace",
+    "cloudflare-worker",
+    "edge-telemetry",
+    "ai-agent-observability",
+    "geo"
+  ],
+  "author": "Voight Trace Core Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  }
+}

@@ -1,0 +1,11 @@
+name = "voight-trace-collector"
+main = "worker.js"
+compatibility_date = "2026-11-04"
+
+[vars]
+VOIGHT_TRACE_INGEST_URL = "https://your-voight-trace-instance.com/api/v1/ingestion/events"
+VOIGHT_TRACE_TENANT_ID = "YOUR_TENANT_UUID"
+VOIGHT_TRACE_SITE_ID = "YOUR_SITE_UUID"
+VOIGHT_TRACE_COLLECTOR_ID = "YOUR_COLLECTOR_UUID"
+VOIGHT_TRACE_API_KEY = "vt_live_your_api_key_here"
+

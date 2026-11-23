@@ -1,0 +1,16 @@
+name = "voight-trace-edge-collector"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+# Ingestion API endpoint (Production or Local Development)
+VOIGHT_TRACE_INGEST_URL = "https://api.voighttrace.com/api/v1/ingestion/events"
+VOIGHT_TRACE_SITE_ID = "018f2d5e-7a91-7f82-a312-d81b9542a301"
+VOIGHT_TRACE_TENANT_ID = "018f2d5e-7a91-7f82-a312-d81b9542a301"
+
+# Set your API Key securely with:
+# npx wrangler secret put VOIGHT_TRACE_API_KEY
+# VOIGHT_TRACE_API_KEY = "vt_live_..."
+
+# Optional: If running as a standalone reverse proxy, define your upstream server:
+# UPSTREAM_HOST = "myorigin.com"
