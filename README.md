@@ -75,6 +75,7 @@ Any header capable of carrying credentials or sensitive personal information is 
 
 ### ✅ Permitted Headers (`SAFE_AUDIT_HEADERS`)
 Only standardized technical context headers required for AI agent traffic intelligence are extracted:
+* **Core AI & Traffic Identification:** `user-agent` (identifies AI crawlers & LLM agents), `referer` (detects human referrals from ChatGPT, Claude, Perplexity), `host`, `origin`
 * **Content Negotiation:** `accept`, `accept-encoding`, `accept-language`, `content-type`
 * **Client Hints (Browser & Device Architecture):** `sec-ch-ua`, `sec-ch-ua-mobile`, `sec-ch-ua-platform`, `sec-ch-ua-platform-version`, `sec-ch-ua-model`, `sec-ch-ua-arch`
 * **Edge Request Metadata:** `sec-fetch-dest`, `sec-fetch-mode`, `sec-fetch-site`, `sec-fetch-user`
