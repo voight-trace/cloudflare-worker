@@ -26,7 +26,7 @@ Edit `wrangler.toml` and set your `VOIGHT_TRACE_SITE_ID`:
 ```toml
 [vars]
 VOIGHT_TRACE_SITE_ID = "your-site-uuid"
-VOIGHT_TRACE_INGEST_URL = "https://api.voighttrace.com/api/v1/ingestion/events"
+VOIGHT_TRACE_INGEST_URL = "https://voighttrace.vercel.app/api/v1/ingestion/events"
 ```
 
 ### Step 3: Set Your Secret API Key

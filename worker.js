@@ -205,7 +205,7 @@ async function sendTelemetry({ env, url, request, correlationId, statusCode, dur
     }
   };
 
-  const endpoint = env.VOIGHT_TRACE_INGEST_URL || 'https://api.voighttrace.com/api/v1/ingestion/events';
+  const endpoint = env.VOIGHT_TRACE_INGEST_URL || 'https://voighttrace.vercel.app/api/v1/ingestion/events';
 
   const ingestRes = await fetch(endpoint, {
     method: 'POST',
