@@ -15,9 +15,10 @@ The **Voight Trace Cloudflare Worker Collector** operates directly on Cloudflare
 
 ## 🚀 1-Minute Deployment Guide
 
-### Step 1: Install Dependencies
+### Step 1: Clone & Install Dependencies
 ```bash
-cd collectors/cloudflare-worker
+git clone https://github.com/voight-trace/cloudflare-worker.git
+cd cloudflare-worker
 npm install
 ```
 
